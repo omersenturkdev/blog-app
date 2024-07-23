@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Omer\\Desktop\\Proje\\BlogApp\\BlogApp\\BlogApp.csproj": {}
+    "C:\\Users\\Omer\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omer\\Desktop\\Proje\\BlogApp\\BlogApp\\BlogApp.csproj": {
+    "C:\\Users\\Omer\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omer\\Desktop\\Proje\\BlogApp\\BlogApp\\BlogApp.csproj",
+        "projectUniqueName": "C:\\Users\\Omer\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj",
         "projectName": "BlogApp",
-        "projectPath": "C:\\Users\\Omer\\Desktop\\Proje\\BlogApp\\BlogApp\\BlogApp.csproj",
+        "projectPath": "C:\\Users\\Omer\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj",
         "packagesPath": "C:\\Users\\Omer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omer\\Desktop\\Proje\\BlogApp\\BlogApp\\obj\\",
+        "outputPath": "C:\\Users\\Omer\\Desktop\\BlogApp\\BlogApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
