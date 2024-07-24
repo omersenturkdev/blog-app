@@ -1,6 +1,10 @@
+using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using BusinessLayer.Concrate;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -27,6 +31,10 @@ namespace BlogApp
         {
             services.AddDbContext<Context>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<ICategoryDal, EFCategoryRepository>();
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<CategoryManager>();
             services.AddControllersWithViews();
         }
 
